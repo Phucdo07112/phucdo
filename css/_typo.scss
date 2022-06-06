@@ -1,0 +1,50 @@
+/*===========
+Typo
+===========*/
+.font-semibold {
+    font-weight: 600;
+}
+.font-medium {
+    font-weight: 500;
+}
+.font-italic {
+    font-style: italic;
+}
+.fz-64 {
+    font-size: 36px;
+    @include breakpoint(md) {
+        font-size: 64px;
+    }
+}
+.fz-14 {
+    font-size: 14px;
+}
+.fz-16 {
+    font-size: 16px;
+}
+.fz-40 {
+    font-size: 32px;
+    @include breakpoint(md) {
+        font-size: 40px;
+    }
+}
+.title-default-calligraphy {
+    font-family: 'MTDHillstownClean', sans-serif;
+}
+.title-default-gradient-blue {
+    background: linear-gradient(270deg, #1D3B77 51.22%, #0289CB 78.78%, #0598D3 106.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.text-transform-inherit {
+    text-transform: inherit;
+}
+.clr-white {
+    color: $clr-white;
+}
+.title-Playfair-Display {
+    font-family: 'Playfair Display', sans-serif;
+    color: #003340;
+}

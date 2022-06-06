@@ -1,0 +1,51 @@
+/*===========
+Common
+===========*/
+body {
+    font-size: 16px;
+    color: $clr-text;
+    font-family: $font-family;
+}
+html.rd-navbar-fixed-linked .page {
+    padding-top: 72px;
+}
+.section-pad-40 {
+    padding: 40px 0;
+}
+
+img {
+    max-width: 100%;
+}
+.section-pad-72 {
+    padding: 48px 0;
+    @include breakpoint(md) {
+        padding: 72px 0;
+    }
+}
+.m-w-380 {
+    min-width: 100%;
+    @include breakpoint(md) {
+        min-width: 380px;
+    }
+}
+.rounded-24 {
+    border-radius: 24px;
+}
+.mb-30 {
+    margin-bottom: 24px;
+    @include breakpoint(md) {
+        margin-bottom: 30px;
+    }
+}
+.m-w-370 {
+    min-width: 100%;
+    @include breakpoint(md) {
+        min-width: 370px;
+    }
+}
+.container {
+    @include breakpoint(xl) {
+        max-width: 1200px;
+    }
+}
+/*-- end common --*/

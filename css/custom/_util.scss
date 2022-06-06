@@ -1,0 +1,47 @@
+.util {
+    position: relative;
+    text-align: left;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    &-cl {
+        width: 100%;
+        height: 100%;
+        background:linear-gradient( to bottom, #4E70BD00, #182646);
+        position: absolute;
+        top: 0;
+    }
+    
+    &-bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        &-left {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    &-img {
+        z-index: -99;
+        width: 100%;
+    }
+
+    &-item {
+        position:absolute;
+        bottom: 0;
+        padding: 16px;
+
+        h3 {
+            font-size: 13px;
+            font-weight: 700;
+            color: white;
+        }
+        p {
+            font-size: 13px;
+            font-weight: 500;
+            color: white;
+            margin-top: 5px;
+        }
+    }
+}
