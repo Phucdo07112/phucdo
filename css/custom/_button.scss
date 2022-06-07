@@ -34,18 +34,43 @@ body .page {
 }
 .face {
     &-item {
-        display: block;
-    }
-    &-btn {
-        width: 100%;
-    }
-    
-    @include breakpoint(lg) {
+        margin-bottom: 18px;
         .face-btn {
             width: 100%;
+            background: none !important;
+            margin-bottom: 10px;
+            &.active {
+                width: 100%;
+                background: #2C63AD !important;
+            }
+        }
+       
+    }
+
+    &-list {
+        display: none;
+
+        &.active {
+            display: block;
         }
     }
-    @include breakpoint(md) {
+    
+    @include breakpoint(lg) { // 992px 
+        &-item {
+            .face-btn {
+                &.active {
+                    width: 100%;
+                    background: #2C63AD !important;
+                }
+            }
+           
+        }
+        .face-btn {
+            width: 100%;
+            background: none !important;
+        }
+    }
+    @include breakpoint(md) { //700px
         &-item {
             display: flex;
             justify-content: center;
@@ -54,6 +79,19 @@ body .page {
         }
         .face-btn {
             width: 100%;
+        }
+        &-item {
+            .face-btn {
+                &.active {
+                    width: 100%;
+                    background: #2C63AD !important;
+                }
+            }
+           
+        }
+        .face-btn {
+            width: 100%;
+            background: none !important;
         }
     }
 }

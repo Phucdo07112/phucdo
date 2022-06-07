@@ -50,9 +50,9 @@ Header
     .rd-navbar-sidebar .rd-navbar-nav > li > a:hover,
     .rd-navbar-sidebar .rd-navbar-nav > li > a.active {
         @include breakpoint(lg) {
-            color: $clr-white;
+            color: $main-cl;
             &::after {
-                background-color: $clr-white;
+                background-color: $main-cl;
                 width: 32px;
             }
         }

@@ -46,9 +46,9 @@ Header
     .rd-navbar-sidebar .rd-navbar-nav > li > a:hover,
     .rd-navbar-sidebar .rd-navbar-nav > li > a.active {
         @include breakpoint(lg) {
-            color: $clr-white;
+            color: #ECB000;
             &::before {
-                background-color: $clr-white;
+                background-color: #ECB000;
                 width: 100%;
             }
         }
@@ -114,7 +114,7 @@ Header
             }
             &.active {
                 border-radius: 50%;
-                background-image: url(../images/landing82/close.png);
+                background-image: url(/44/images/landing44/Vector\ \(3\).png);
                 background-position: center center;
                 background-repeat: no-repeat;
                 span {

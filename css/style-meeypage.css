@@ -117,7 +117,7 @@ Header
 }
 @media only screen and (min-width: 992px) {
   .page-header-default-1 .rd-navbar-fullwidth .rd-navbar-nav > li > a, .page-header-default-1 .rd-navbar-static .rd-navbar-nav > li > a, .page-header-default-1 .rd-navbar-sidebar .rd-navbar-nav > li > a {
-    color: #fff;
+    color: #ECB000;
     padding: 10px 0;
   }
 }
@@ -148,7 +148,7 @@ Header
 .page-header-default-1 .rd-navbar-sidebar .rd-navbar-nav > li > a:focus,
 .page-header-default-1 .rd-navbar-sidebar .rd-navbar-nav > li > a:hover,
 .page-header-default-1 .rd-navbar-sidebar .rd-navbar-nav > li > a.active {
-    color: #fff;
+    color: #ECB000;
   }
   .page-header-default-1 .rd-navbar-fullwidth .rd-navbar-nav > li > a:active::after,
 .page-header-default-1 .rd-navbar-fullwidth .rd-navbar-nav > li > a:focus::after,
@@ -162,7 +162,7 @@ Header
 .page-header-default-1 .rd-navbar-sidebar .rd-navbar-nav > li > a:focus::after,
 .page-header-default-1 .rd-navbar-sidebar .rd-navbar-nav > li > a:hover::after,
 .page-header-default-1 .rd-navbar-sidebar .rd-navbar-nav > li > a.active::after {
-    background-color: #fff;
+    background-color: #ECB000;
     width: 32px;
   }
 }
