@@ -101,25 +101,23 @@ Header
             margin-left: auto;
             width: 40px;
             height: 40px;
-            background-color:#ECB000;
-            border-radius: 4px;
+            background-color: $main-cl;
+            border-radius: 50%;
             line-height: 40px;
             margin-top: 10px;
             margin-right: 15px;
             transition:  border-radius ease 0.3s;
             font-size: 0;
-            span, span:before, span::after {
-                height: 2px;
-                background-color: $clr-white;
-            }
+
+            border-radius: 50%;
+            background-image: url(/images/landing44/Group\ 806\ \(1\).png);
+            background-position: center center;
+            background-repeat: no-repeat;
             &.active {
                 border-radius: 50%;
-                background-image: url(/44/images/landing44/Vector\ \(3\).png);
+                background-image: url(/images/landing44/Vector\ \(3\).png);
                 background-position: center center;
                 background-repeat: no-repeat;
-                span {
-                    display: none;
-                }
             }
         } 
         .rd-navbar-nav-wrap {

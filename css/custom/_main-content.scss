@@ -7,19 +7,26 @@ Maincontent
         width: 100%;
     }
 }
-.great.owl-carousel.owl-loaded {
-
-    .owl-nav {
-        display: none;
+.great .owl-nav {
+    @include breakpoint(xl) {
+      max-width: 1200px;
     }
-    .owl-dots {
-        display: none;
+}
+.great .owl-prev {
+    top: 200px;
+    @include breakpoint(xl) {
+        left: 180px;
+        top: 250px;
     }
-    @include breakpoint(lg) {
-        .owl-nav {
-            display: block;
-        }
-    }
+    
+}
+.great .owl-next {
+  top: 200px;
+  
+  @include breakpoint(xl) {
+    top: 250px;
+    right: 180px;
+  }
 }
 
 /* section-info-project */
