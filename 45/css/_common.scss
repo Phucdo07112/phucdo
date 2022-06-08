@@ -1,0 +1,21 @@
+/*===========
+Common
+===========*/
+body {
+    font-size: 16px;
+    color: $clr-black;
+    font-family: $font-family;
+}
+html.rd-navbar-fixed-linked .page {
+    padding-top: 72px;
+}
+
+img {
+    max-width: 100%;
+}
+.container {
+    @include breakpoint(xl) {
+        max-width: 1200px;
+    }
+}
+/*-- end common --*/

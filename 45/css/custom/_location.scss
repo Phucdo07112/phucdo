@@ -1,0 +1,38 @@
+.bg-img-location {
+    
+    .container {
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            color: $clr-text;
+            padding-top: 37px;
+        }
+        p {
+            text-align: start;
+            @include breakpoint(md) {
+                text-align: center;
+            }
+            span {
+                font-weight: 600;
+            }
+            font-weight: 400;
+        }
+    }
+}
+.flex-n {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 16px;
+  
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      margin: 0;
+      color: #06AD3F;
+    }
+    @include breakpoint(lg) {
+        justify-content: center;
+    }
+}

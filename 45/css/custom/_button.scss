@@ -1,0 +1,127 @@
+/*===========
+Buttons & Forms
+===========*/
+body .page {
+    .form-group {
+        margin-bottom: 16px;
+    }
+    .form-dark {
+        .form-control {
+            background: rgba(26, 87, 108, 0.1);
+            border: 1px solid #1A576C;
+            border-radius: 3px;
+            @include placeholder(#292930);
+            height: 45px;
+            color: #292930;
+        }
+    }
+    .btn-primary,
+    .btn-primary[data-x-state=active],
+    .btn-primary[data-x-state=focus] {
+        background-color: #ECB000;
+        border-color: #ECB000;
+        color: $clr-white;
+        border-radius: 0px;
+        padding: 8px 15px;
+        font-weight: 600;
+        font-size: 16px;
+        &:hover, &:focus {
+            background-color: lighten($color: #ECB000, $amount: 5%);
+            border-color: lighten($color: #ECB000, $amount: 5%);
+            color: $clr-white;
+        }
+    }
+}
+.face {
+    &-item {
+        margin-bottom: 18px;
+        display: block;
+
+        .face-btn {
+            width: 100%;
+            background: #E5E5E5 !important;
+            margin-bottom: 10px;
+            border-radius: 3px !important;
+
+            &.active {
+                background: #1A576C !important;
+            }
+        }
+       
+    }
+
+    &-list {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+    
+    @include breakpoint(lg) { // 992px 
+        &-item {
+            margin-bottom: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            .face-btn {
+                width: 240px;
+                background: #E5E5E5 !important;
+                margin-bottom: 10px;
+                border-radius: 3px !important;
+    
+                &.active {
+                    background: #1A576C !important;
+                }
+            }
+           
+        }
+    
+        &-list {
+            display: none;
+    
+            &.active {
+                display: block;
+            }
+        }
+    }
+    @include breakpoint(md) { //700px
+        &-item {
+            margin-bottom: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+    
+            .face-btn {
+                width: 240px;
+                background: #E5E5E5 !important;
+                margin-bottom: 10px;
+                border-radius: 3px !important;
+    
+                &.active {
+                    background: #1A576C !important;
+                }
+            }
+           
+        }
+    
+        &-list {
+            display: none;
+    
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
+.red-color {
+    background-color: $clr-red;
+    border-color: $clr-red;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 16px;
+}

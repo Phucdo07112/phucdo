@@ -1,0 +1,21 @@
+.project {
+    .btn-flex {
+      display: none;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+        button {
+          width: 100%;
+          margin-bottom: 16px;
+        }
+     }
+     @include breakpoint(lg) {
+        .btn-flex {
+            display: flex;
+          button {
+            width: 270px;
+            margin-bottom: 0;
+          }
+        }
+      }
+  }

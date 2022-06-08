@@ -1,0 +1,86 @@
+/*===========
+Typo
+===========*/
+.font-semibold {
+    font-weight: 600;
+}
+.font-medium {
+    font-weight: 500;
+}
+.fz-22 {
+    font-size: 18px;
+    @include breakpoint(md) {
+        font-size: 22px;
+    }
+}
+.fz-64 {
+    font-size: 36px;
+    @include breakpoint(md) {
+        font-size: 64px;
+    }
+}
+.fz-14 {
+    font-size: 14px;
+}
+.fz-16 {
+    font-size: 16px;
+}
+.title-calligraphy {
+    font-family: 'MTDHillstownClean', sans-serif;
+}
+.title-gradient-blue {
+    background: linear-gradient(270deg, #1D3B77 51.22%, #0289CB 78.78%, #0598D3 106.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.text-transform-inherit {
+    text-transform: inherit;
+}
+.clr-white {
+    color: $clr-white;
+}
+.type {
+    
+    &-list {
+        grid-template-columns: 1fr;
+    }
+    &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #CFEFF9;
+        margin-bottom: 30px;
+
+        img {
+            width: 100%;
+            height: 270px;
+            object-fit: cover;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 500;
+            padding-top: 16px;
+        }
+
+        &-mg {
+            margin-top: auto;
+            width: 100%;
+        }
+    }
+    @include breakpoint(lg) {
+        &-list {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @include breakpoint(lg) {
+        &-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0 50px;
+        }
+    }
+}
