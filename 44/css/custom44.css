@@ -945,11 +945,16 @@ Maincontent
 }
 
 .owl-carousel .owl-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.owl-carousel .owl-item .owl-img-w {
   height: 325px;
   object-fit: cover;
 }
 @media only screen and (min-width: 992px) {
-  .owl-carousel .owl-item img {
+  .owl-carousel .owl-item .owl-img-w {
     height: 500px;
   }
 }
