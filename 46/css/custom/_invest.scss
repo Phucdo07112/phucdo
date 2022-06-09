@@ -1,0 +1,27 @@
+.invest {
+   display: grid;
+   grid-template-columns: auto;
+    gap: 30px;
+    &-item {
+        img {
+            width: 48px;
+            object-fit: cover;
+        }
+        p {
+            color: #000;
+            font-weight: 400;
+        }
+    }
+    @include breakpoint(md) {
+        grid-template-columns:auto auto ;
+    }
+    @include breakpoint(xl) {
+        grid-template-columns:auto auto auto auto;
+        &-item {
+            img {
+                width: 48px;
+                object-fit: cover;
+            }
+        }
+    }
+}

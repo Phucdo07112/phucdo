@@ -1,0 +1,10 @@
+/* section-article-basic-1 */
+.section-article-basic-1 {
+    .map {
+        margin-bottom: 36px;
+        @include breakpoint(md) {
+            margin-bottom: 56px;
+        }
+    }
+}
+

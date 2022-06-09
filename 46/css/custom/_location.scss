@@ -1,0 +1,42 @@
+.bg-img-location {
+    
+    .container {
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            color: $clr-text;
+            padding-top: 37px;
+        }
+        p {
+            @include breakpoint(md) {
+                text-align: center;
+            }
+            span {
+                font-weight: 600;
+            }
+            font-weight: 400;
+            margin-top: 0;
+        }
+    }
+}
+.flex-n {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    gap: 0px;
+    flex-direction: column;
+  
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      color: $clr-text;
+      font-weight: 600;
+    }
+    @include breakpoint(lg) {
+        justify-content: center;
+        gap: 16px;
+        flex-direction: row;
+        align-items: center;
+    }
+}

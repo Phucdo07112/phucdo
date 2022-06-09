@@ -1,0 +1,90 @@
+/*===========
+Footer
+===========*/
+.page-footer-default-style-1 {
+    color: $clr-white;
+    font-size: 14px;
+    font-weight: 500;
+    color: $clr-white;
+    h3 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 24px;
+    }
+    p {
+        margin-bottom: 16px;
+    }
+    .copyright {
+        background-color: #06497A;
+        color: rgba($clr-white,0.6);
+        font-size: 14px;
+        font-weight: 500;
+        padding: 16px 0;
+    }
+    ul {
+        li {
+            margin-bottom: 16px;
+        }
+    }
+    .contact-us-footer {
+        margin-bottom: 32px;
+        @include breakpoint(md) {
+            max-width: 370px;
+            margin-bottom: 0;
+        }
+        li {
+            position: relative;
+            padding-left: 30px;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                max-width: 20px;
+            }
+        }
+    }
+    .forms-advice-footer {
+        @include breakpoint(md) {
+            max-width: 370px;
+            margin: 0 auto;
+        }
+    }
+    .col-md-6 {
+        &:first-child {
+            @include breakpoint(md) {
+                border-right: 1px solid rgba(255, 255, 255, 0.6);
+            }
+        }
+    }
+    .btn-primary,
+    .btn-primary[data-x-state=active],
+    .btn-primary[data-x-state=focus] {
+        background-color: #ECB000;
+        border-color: #ECB000;
+        color: $clr-white;
+        border-radius: 8px;
+        padding: 8px 15px;
+        font-weight: 600;
+        font-size: 16px;
+        &:hover, &:focus {
+            background-color: lighten($color: #ECB000, $amount: 5%);
+            border-color: lighten($color: #ECB000, $amount: 5%);
+            color: $clr-white;
+        }
+    }
+}
+.form-default-dark {
+    .form-group {
+        margin-bottom: 16px;
+    }
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        border-radius: 8px;
+        @include placeholder(rgba(242, 242, 242, 0.4));
+        height: 45px;
+        color: $clr-white;
+    }
+}
+/*-- end footer --*/

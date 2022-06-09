@@ -1,0 +1,27 @@
+$screen-xs: 575px;
+//** Deprecated `Small` as of 4.0
+$screen-sm: 576px;
+//** Deprecated `Medium` as of 4.0
+$screen-md: 768px;
+//** Deprecated `Large` as of 4.0
+$screen-lg:992px;
+//** Deprecated `Extra large` as of 4.0
+$screen-xl: 1200px;
+//** Deprecated `Extra extra large` as of 4.0
+$screen-xxl: 1400px;
+//end Deprecated `Extra extra large` as of 4.0
+
+$font-base-size: 16px;
+$font-family: 'Montserrat', sans-serif;
+
+
+$clr-white: #fff;
+$clr-black: #00202D;
+$clr-text: #DD9933;
+$clr-link: #04091F;
+$clr-link-hover: #0A5C8D;
+$clr-red: #FF0000;
+
+$clr-1: #DAB159;
+$clr-2: #1A576C; // bg header, sidebar
+$main-cl: #ECB000;
