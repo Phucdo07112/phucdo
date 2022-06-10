@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
 .item {
   position: relative;
 }
@@ -265,6 +266,10 @@ body .page .btn-primary[data-x-state=focus]:focus {
   }
 }
 
+.btn {
+  border-radius: 3px !important;
+}
+
 /*===========
 Typo
 ===========*/
@@ -274,6 +279,10 @@ Typo
 
 .font-medium {
   font-weight: 500;
+}
+
+.title-desribe {
+  font-family: "Nunito", sans-serif;
 }
 
 .fz-22 {
@@ -788,19 +797,19 @@ Maincontent
   background-color: #fff;
 }
 .owl-carousel-custom-style-1 .owl-nav .owl-prev {
-  left: 30px;
-  top: 150px;
+  left: 8%;
+  top: 22%;
 }
 @media only screen and (min-width: 768px) {
   .owl-carousel-custom-style-1 .owl-nav .owl-prev {
-    left: 30px;
-    top: 200px;
+    left: 5%;
+    top: 25%;
   }
 }
 @media only screen and (min-width: 992px) {
   .owl-carousel-custom-style-1 .owl-nav .owl-prev {
-    left: 185px;
-    top: 220px;
+    left: 12%;
+    top: 30%;
   }
 }
 .owl-carousel-custom-style-1 .owl-nav .owl-prev::before {
@@ -810,19 +819,19 @@ Maincontent
   background-image: url(../images/meeypage/btn-prev.svg);
 }
 .owl-carousel-custom-style-1 .owl-nav .owl-next {
-  right: 30px;
-  top: 150px;
+  right: 8%;
+  top: 22%;
 }
 @media only screen and (min-width: 768px) {
   .owl-carousel-custom-style-1 .owl-nav .owl-next {
-    right: 30px;
-    top: 200px;
+    right: 5%;
+    top: 25%;
   }
 }
 @media only screen and (min-width: 1200px) {
   .owl-carousel-custom-style-1 .owl-nav .owl-next {
-    right: 185px;
-    top: 220px;
+    right: 12%;
+    top: 30%;
   }
 }
 .owl-carousel-custom-style-1 .owl-nav .owl-next::before {
@@ -919,7 +928,7 @@ Maincontent
   background-image: url(../images/meeypage/btn-prev-o.svg);
 }
 .owl-carousel-custom-style-2 .owl-nav .owl-prev:hover::before {
-  background-image: url(../images/meeypage/btn-prev.svg);
+  background-image: url(../images/landing44/btn-prev.svg);
 }
 .owl-carousel-custom-style-2 .owl-nav .owl-next {
   right: 30px;
@@ -931,7 +940,7 @@ Maincontent
     top: 150px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
   .owl-carousel-custom-style-2 .owl-nav .owl-next {
     right: 50px;
     top: 220px;
@@ -941,7 +950,7 @@ Maincontent
   background-image: url(../images/meeypage/btn-next-o.svg);
 }
 .owl-carousel-custom-style-2 .owl-nav .owl-next:hover::before {
-  background-image: url(../images/meeypage/btn-next.svg);
+  background-image: url(../images/landing44/btn-next.svg);
 }
 
 .owl-carousel .owl-item img {

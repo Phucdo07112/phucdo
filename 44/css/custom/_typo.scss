@@ -7,6 +7,9 @@ Typo
 .font-medium {
     font-weight: 500;
 }
+.title-desribe {
+    font-family: 'Nunito', sans-serif;
+}
 .fz-22 {
     font-size: 18px;
     @include breakpoint(md) {

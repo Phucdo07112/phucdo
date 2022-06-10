@@ -222,7 +222,7 @@
     .owl-nav {
         .owl-prev, .owl-next {
             @include square(40px);
-            background-color: #04519D;
+            background-color: #1A576C;
             transform: rotate(-135deg) !important;
             border: none;
             text-align: center;
@@ -264,7 +264,7 @@
             }
             &:hover {
                 &::before {
-                    background-image: url(../images/landing45/btn-prev.svg);
+                    background-image: url(../images/landing46/btn-prev.svg);
                 }
             }
         }
@@ -284,7 +284,7 @@
             }
             &:hover {
                 &::before {
-                    background-image: url(../images/landing45/btn-next.svg);
+                    background-image: url(../images/landing46/btn-next.svg);
                 }
             }
         }
@@ -293,6 +293,18 @@
 .owl-carousel .owl-item img {
     height: 100vh;
     object-fit: cover;
+}
+.owl-carousel .owl-item .h-img {
+    height: 354px;
+    object-fit: cover;
+    @include breakpoint(md) {
+        height: 500px;
+        object-fit: cover;
+    }
+    @include breakpoint(lg) {
+        height: 100vh;
+        object-fit: cover;
+    }
 }
 .owl-carousel .owl-item .img-project {
     height: 270px;

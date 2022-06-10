@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SVN-Unthrift';
+    src: url('SVN-Unthrift.eot');
+    src: url('SVN-Unthrift.eot?#iefix') format('embedded-opentype'),
+        url('SVN-Unthrift.woff2') format('woff2'),
+        url('SVN-Unthrift.woff') format('woff'),
+        url('SVN-Unthrift.ttf') format('truetype'),
+        url('SVN-Unthrift.svg#SVN-Unthrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

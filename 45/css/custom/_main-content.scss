@@ -125,4 +125,10 @@ iframe {
     width: 100%;
     border-collapse: collapse;
 }
+.pro-img {
+    height: 262px;
+    @include breakpoint(lg) {
+        height: 450px;
+    }
+}
 

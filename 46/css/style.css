@@ -16437,10 +16437,10 @@ html .page .btn-video:hover img {
 	margin-right: -5px;
 }
 
-.rd-mailform .row > [class*='col-'] {
+/* .rd-mailform .row > [class*='col-'] {
 	padding-left: 5px;
 	padding-right: 5px;
-}
+} */
 
 .rd-mailform .btn {
 	padding-left: 20px;

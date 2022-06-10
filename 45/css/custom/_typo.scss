@@ -7,6 +7,22 @@ Typo
 .font-medium {
     font-weight: 500;
 }
+.title-default-calligraphy {
+    font-family: 'SVN-Unthrift', sans-serif;
+    font-size: 48px !important;
+    line-height: 68px;
+    margin-bottom: 16px;
+    @include breakpoint(md) {
+        font-family: 'SVN-Unthrift', sans-serif;
+        font-size: 102px !important;
+        line-height: 68px;
+        margin-bottom: 40px;
+            
+    }
+}
+.title-describe {
+    font-family: 'Nunito', sans-serif;
+}
 .fz-22 {
     font-size: 18px;
     @include breakpoint(md) {
@@ -60,7 +76,7 @@ Typo
             object-fit: cover;
         }
 
-        h3 {
+        h2 {
             font-size: 18px;
             font-weight: 500;
             padding-top: 16px;
