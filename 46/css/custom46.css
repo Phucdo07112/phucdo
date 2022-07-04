@@ -809,8 +809,8 @@ iframe {
   justify-content: center;
   align-items: center;
   margin-top: 16px;
-  gap: 0px;
   flex-direction: column;
+  gap: 16px;
 }
 .flex-n h2 {
   font-size: 18px;
